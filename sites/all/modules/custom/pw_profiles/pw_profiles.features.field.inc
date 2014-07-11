@@ -696,7 +696,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '66',
+          'weight' => '72',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -834,7 +834,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '64',
+          'weight' => '70',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -946,7 +946,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '40',
+          'weight' => '45',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1042,7 +1042,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '58',
+          'weight' => '64',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1066,7 +1066,9 @@ function pw_profiles_field_default_fields() {
       'widget' => array(
         'active' => 0,
         'module' => 'number',
-        'settings' => array(),
+        'settings' => array(
+          'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        ),
         'type' => 'number',
         'weight' => '29',
       ),
@@ -1151,7 +1153,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '62',
+          'weight' => '68',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1255,7 +1257,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '56',
+          'weight' => '62',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1371,7 +1373,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '55',
+          'weight' => '61',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1485,7 +1487,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '54',
+          'weight' => '60',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1583,7 +1585,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '0',
+          'weight' => '35',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1685,7 +1687,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '45',
+          'weight' => '51',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1822,7 +1824,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '37',
+          'weight' => '42',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -1971,7 +1973,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '43',
+          'weight' => '49',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -2093,7 +2095,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '51',
+          'weight' => '57',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -2105,7 +2107,7 @@ function pw_profiles_field_default_fields() {
       'ds_extras_field_template' => '',
       'entity_type' => 'user',
       'field_name' => 'field_user_first_letter_lname',
-      'label' => 'user_first_letter_lname',
+      'label' => 'First Letter of Lastname',
       'required' => 0,
       'settings' => array(
         'better_formats' => array(
@@ -2158,7 +2160,7 @@ function pw_profiles_field_default_fields() {
           'size' => '60',
         ),
         'type' => 'text_textfield',
-        'weight' => '61',
+        'weight' => '21',
       ),
     ),
   );
@@ -2245,7 +2247,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'hidden',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '46',
+          'weight' => '52',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -2336,9 +2338,9 @@ function pw_profiles_field_default_fields() {
       'module' => 'list',
       'settings' => array(
         'allowed_values' => array(
-          'm' => 'Male',
-          'f' => 'Female',
-          't' => 'Transgender',
+          'm' => 'männlich',
+          'f' => 'weiblich',
+          't' => 'transgender',
         ),
         'allowed_values_function' => '',
       ),
@@ -2391,7 +2393,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '53',
+          'weight' => '59',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -2492,7 +2494,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '67',
+          'weight' => '73',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -2628,7 +2630,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '61',
+          'weight' => '67',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -2766,7 +2768,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '39',
+          'weight' => '44',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -2895,7 +2897,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '63',
+          'weight' => '69',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -2992,7 +2994,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '0',
+          'weight' => '36',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -3104,7 +3106,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'hidden',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '47',
+          'weight' => '53',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -3243,7 +3245,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '60',
+          'weight' => '66',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -3368,7 +3370,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '59',
+          'weight' => '65',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -3509,7 +3511,7 @@ function pw_profiles_field_default_fields() {
           'module' => 'taxonomy',
           'settings' => array(),
           'type' => 'taxonomy_term_reference_link',
-          'weight' => '18',
+          'weight' => '21',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -3603,7 +3605,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '33',
+          'weight' => '38',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -3753,7 +3755,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '44',
+          'weight' => '50',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -3881,7 +3883,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '34',
+          'weight' => '39',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -4027,7 +4029,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '65',
+          'weight' => '71',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -4175,7 +4177,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '57',
+          'weight' => '63',
         ),
         'user_search' => array(
           'label' => 'hidden',
@@ -4284,7 +4286,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '50',
+          'weight' => '56',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -4415,7 +4417,7 @@ function pw_profiles_field_default_fields() {
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '35',
+          'weight' => '40',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -4569,7 +4571,7 @@ $entity_field[0][\'value\'] = $result;',
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '41',
+          'weight' => '46',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -4592,6 +4594,143 @@ $entity_field[0][\'value\'] = $result;',
         'settings' => array(),
         'type' => 'computed',
         'weight' => '30',
+      ),
+    ),
+  );
+
+  // Exported field: 'user-user-field_user_question_form_closed'.
+  $fields['user-user-field_user_question_form_closed'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_user_question_form_closed',
+      'field_permissions' => array(
+        'type' => '2',
+      ),
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'locked' => '0',
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'user',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => 'If this field is filled, question form will be closed and content of this field will be shown to visitor.',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => 39,
+        ),
+        'search_result' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'user_deputy' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'user_dialogue_search_snippet' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'user_premium' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'user_search' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'ds_extras_field_template' => '',
+      'entity_type' => 'user',
+      'field_name' => 'field_user_question_form_closed',
+      'label' => 'Question Form Closed By Reason',
+      'required' => 0,
+      'settings' => array(
+        'better_formats' => array(
+          'allowed_formats' => array(
+            'filtered_html' => 'filtered_html',
+            'full_html' => 'full_html',
+            'html_mail' => 'html_mail',
+            'managed_content' => 'managed_content',
+            'php_code' => 'php_code',
+            'plain_text' => 'plain_text',
+          ),
+          'allowed_formats_toggle' => 0,
+          'default_order_toggle' => 0,
+          'default_order_wrapper' => array(
+            'formats' => array(
+              'filtered_html' => array(
+                'weight' => '-9',
+              ),
+              'full_html' => array(
+                'weight' => '-8',
+              ),
+              'html_mail' => array(
+                'weight' => '0',
+              ),
+              'managed_content' => array(
+                'weight' => '-10',
+              ),
+              'php_code' => array(
+                'weight' => '-6',
+              ),
+              'plain_text' => array(
+                'weight' => '-7',
+              ),
+            ),
+          ),
+        ),
+        'linkit' => array(
+          'enable' => 0,
+          'insert_plugin' => '',
+        ),
+        'text_processing' => '0',
+        'user_register_form' => 0,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'maxlength_js' => 0,
+          'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '60',
       ),
     ),
   );
@@ -4665,7 +4804,7 @@ $entity_field[0][\'value\'] = $result;',
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '49',
+          'weight' => '55',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -4740,7 +4879,7 @@ $entity_field[0][\'value\'] = $result;',
       'bundle' => 'user',
       'default_value' => NULL,
       'deleted' => '0',
-      'description' => '',
+      'description' => 'Because system user roles are not revisionable, this fields stores a copy of the user role.',
       'display' => array(
         'default' => array(
           'label' => 'above',
@@ -4770,7 +4909,7 @@ $entity_field[0][\'value\'] = $result;',
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '38',
+          'weight' => '43',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -4782,7 +4921,7 @@ $entity_field[0][\'value\'] = $result;',
       'ds_extras_field_template' => '',
       'entity_type' => 'user',
       'field_name' => 'field_user_roles_for_view_mode_s',
-      'label' => 'user_roles_for_view_mode_switch',
+      'label' => 'Roles (revisionable)',
       'required' => 0,
       'settings' => array(
         'user_register_form' => 0,
@@ -4794,7 +4933,7 @@ $entity_field[0][\'value\'] = $result;',
           'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
         ),
         'type' => 'options_buttons',
-        'weight' => '13',
+        'weight' => '19',
       ),
     ),
   );
@@ -4868,7 +5007,7 @@ $entity_field[0][\'value\'] = $result;',
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '36',
+          'weight' => '41',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -5010,7 +5149,7 @@ $entity_field[0][\'value\'] = $result;',
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '48',
+          'weight' => '54',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -5152,7 +5291,7 @@ $entity_field[0][\'value\'] = $result;',
           'label' => 'above',
           'settings' => array(),
           'type' => 'hidden',
-          'weight' => '42',
+          'weight' => '48',
         ),
         'user_search' => array(
           'label' => 'above',
@@ -5198,6 +5337,7 @@ $entity_field[0][\'value\'] = $result;',
   t('Age');
   t('Alt Text');
   t('Answers Give');
+  t('Because system user roles are not revisionable, this fields stores a copy of the user role.');
   t('Birthday');
   t('Bitte geben Sie hier Ihren Twitter-Account an (nur der Name ohne @). Aus technischen Gründen kann es bis zu 30min dauern, bis diese Information in Ihrem Profil angezeigt wird.');
   t('Body');
@@ -5213,11 +5353,13 @@ $entity_field[0][\'value\'] = $result;',
   t('Election Result');
   t('External Links');
   t('External URL');
+  t('First Letter of Lastname');
   t('First Name');
   t('Gender');
   t('Hier können Sie beliebige Links ergänzen, die in Ihrem Profil öffentlich angezeigt werden sollen.');
   t('Hier können Sie ein Foto für Ihr Profil hochladen. Klicken Sie dazu auf "Auswählen", suchen Sie dann eine Bilddatei von Ihrem Computer aus und klicken Sie auf "Abschicken".');
   t('Hier können Sie einen Freitext über Ihre Person eintragen, z.B. eine Biographie oder einen Lebenslauf. Der Text wird in Ihrem Profil veröffentlicht.');
+  t('If this field is filled, question form will be closed and content of this field will be shown to visitor.');
   t('Image Gallery');
   t('Last name');
   t('List Position');
@@ -5235,8 +5377,10 @@ $entity_field[0][\'value\'] = $result;',
   t('Profile picture');
   t('Pseudonym');
   t('Public Mail');
+  t('Question Form Closed By Reason');
   t('QuestionAnswerRatio');
   t('Questions Get');
+  t('Roles (revisionable)');
   t('Title');
   t('Title Text');
   t('Title text attribute (for the profile formats x and xs the copyright will overwrite this field)');
@@ -5244,8 +5388,6 @@ $entity_field[0][\'value\'] = $result;',
   t('Twitter');
   t('Valid');
   t('Wählen Sie hier Ihren Listenplatz aus.');
-  t('user_first_letter_lname');
-  t('user_roles_for_view_mode_switch');
   t('z.B. "Jurist" oder "Diplom Ingenieur"');
   t('z.B. "selbständiger IT-Berater" oder "Bürgermeister"');
 
